@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>MoodTracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  type="image/jpeg"   href="icon.jpeg">
+</head>
+
+
+<body>
+
+    <div id="heading">
+        <h1>MOOD TRACKER</h1>
+    </div>
+
+    <div id="container">
+        <h1>How are you feeling today?</h1>
+        <div id="emojis">
+            <span data-mood="happy" onclick="hpy()">😊</span>
+            <span data-mood="sad" onclick="sad()">😭</span>
+            <span data-mood="tired" onclick="tired()">😴</span>
+            <span data-mood="angry" onclick="angry()">😡</span>
+            <span data-mood="excite" onclick="excite()">🤩</span>
+
+        </div>
+
+    </div>
+
+    <div id="overlay" onclick="close()"></div>
+
+    <div id="popuph">
+        
+        <h2 id="hpy">Seem to be Happy:Yahh! Keep Smiling</h2>
+        <button id="closehpy">Close</button> 
+    </div>    
+    <div id="popups">
+        <h2 id="sad">Seem to be sad:Don't worry</h2>
+       <button id="closesad">Close</button>
+    </div>
+    <div id="popupt">    
+        <h2 id="tired">Seem to be Tired:Take some rest</h2>
+        <button id="closet">Close</button>
+    </div>
+    <div id="popupa">   
+        <h2 id="angry">Seem to be Angry:Be calm an relax</h2>
+        <button id="closea">Close</button>
+    </div> 
+    <div id="popupe">   
+        <h2 id="excite">Seem to be Excited:So much energy! </h2>
+        <button id="closee">Close</button>
+    </div>
+    
+
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
